@@ -18,6 +18,7 @@ On Ubuntu/Debian:
 ```sh
 sudo apt install cargo gcc g++ make cmake
 ```
+<sup> obs: you can only use flatpak and snap on non-arch based distros, for obvious reasons <sup>
 
 ---
 
