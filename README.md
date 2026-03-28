@@ -1,6 +1,6 @@
-# 🧪 flask
+# flask
 
-**your unnecessary multi-repo package manager**
+**your totally unnecessary multi-repo package manager**
 
 `flask` is a unified CLI for managing packages across `snap`, `flatpak`, `pacman`, and the `AUR` — because apparently one package manager was never enough.
 
