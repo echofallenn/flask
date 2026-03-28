@@ -25,9 +25,9 @@ Written in Rust with a C++ dependency resolver linked via FFI. Completely over-e
 flask install neovim
 
 # use a specific backend
-flask --backend flatpak install com.spotify.Client
-flask --backend snap install vlc
-flask --backend aur install paru-bin
+flask flatpak install com.spotify.Client
+flask snap install vlc
+flask aur install paru-bin
 
 # search across a backend
 flask --backend pacman search neovim
