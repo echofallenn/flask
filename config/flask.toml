@@ -1,0 +1,16 @@
+[general]
+default_backend = "pacman"
+confirm = true
+
+[backends.snap]
+enabled = true
+
+[backends.flatpak]
+enabled = true
+
+[backends.pacman]
+enabled = true
+
+[backends.aur]
+enabled = true
+helper = "yay"
