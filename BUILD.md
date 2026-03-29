@@ -115,11 +115,14 @@ flask/
 
 ## troubleshooting
 
-**`cc` crate fails to find g++`**
+**`cc` crate fails to find `g++`**:
+
 Make sure `g++` is installed and in PATH. On Arch: `sudo pacman -S gcc`.
 
-**AUR helper not found**
-Install `yay` or `paru` before using `--backend aur`.
+**AUR helper not found**:
 
-**`flask_which` undefined symbol**
+Install `yay` or `paru` before using `flask aur`.
+
+**`flask_which` undefined symbol**:
+
 The FFI bridge didn't link correctly. Run `cargo clean && cargo build` to force a full rebuild.
