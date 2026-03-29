@@ -81,4 +81,4 @@ aur.helper = "yay"
 
 ## license
 
-MIT
+[LICENSE](LICENSE)
