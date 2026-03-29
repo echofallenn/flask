@@ -78,7 +78,3 @@ aur.helper = "yay"
 ```
 
 ---
-
-## license
-
-[LICENSE](LICENSE)
