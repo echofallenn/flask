@@ -1,4 +1,4 @@
-# flask
+[](url)# flask
 
 **your totally unnecessary multi-repo package manager**
 
@@ -30,7 +30,7 @@ flask snap install vlc
 flask aur install paru-bin
 
 # search across a backend
-flask --backend pacman search neovim
+flask pacman search neovim
 
 # update everything
 flask update
@@ -60,7 +60,7 @@ flask remove neovim
 
 ## build from source
 
-See [BUILD.md](BUILD.md).
+See [build.md](build.md).
 
 ---
 
