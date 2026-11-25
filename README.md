@@ -57,10 +57,14 @@ flask remove neovim
 | snap    | `snap`         | any distro |
 
 ---
+## build from source
 
+see [BUILD.md](BUILD.md)
+
+---
 ## configuration
 
-Copy `config/flask.toml` to `~/.config/flask/flask.toml` and edit as needed:
+copy `config/flask.toml` to `~/.config/flask/flask.toml` and edit as needed:
 
 ```toml
 [general]
