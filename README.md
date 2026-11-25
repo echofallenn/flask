@@ -2,9 +2,9 @@
 
 **your totally unnecessary multi-repo package manager**
 
-`flask` is a unified CLI for managing packages across `snap`, `flatpak`, `pacman`, and the `AUR`, because apparently one package manager was never enough.
+`flask` is a unified CLI for managing packages across `snap`, `flatpak`, `pacman`, and the `AUR`
 
-Written in Rust with a C++ dependency resolver. Completely over-engineered. Absolutely worth it.
+written in rust with a c++ dependency resolver.
 
 ---
 
@@ -55,12 +55,6 @@ flask remove neovim
 | aur     | `yay` or `paru`| prefers yay |
 | flatpak | `flatpak`      | any distro |
 | snap    | `snap`         | any distro |
-
----
-
-## build from source
-
-See [build.md](build.md).
 
 ---
 
