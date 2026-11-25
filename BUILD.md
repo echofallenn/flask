@@ -9,12 +9,12 @@
 | CMake | ≥ 3.16 | optional, used if you build C++ separately |
 | make | any | convenience wrapper |
 
-On Arch:
+on Arch:
 ```sh
 sudo pacman -S rust gcc make cmake
 ```
 
-On Ubuntu/Debian:
+on Ubuntu/Debian:
 ```sh
 sudo apt install cargo gcc g++ make cmake
 ```
@@ -30,7 +30,7 @@ cd flask
 cargo build
 ```
 
-The `build.rs` script automatically compiles `cpp/resolver.cpp` into a static library and links it into the binary. You don't need to run CMake manually.
+`build.rs` automatically compiles `cpp/resolver.cpp` into a static library and links it into the binary. you don't need to run cmake manually.
 
 ---
 
@@ -59,7 +59,7 @@ sudo install -m 755 target/release/flask /usr/local/bin/flask
 
 ## optional: build C++ separately with CMake
 
-If you want to iterate on the C++ resolver without rebuilding the whole Rust crate:
+if you want to iterate on the c++ resolver without rebuilding the whole rust crate:
 
 ```sh
 cmake -B build -S .
@@ -67,7 +67,7 @@ cmake --build build
 # produces build/libresolver.a
 ```
 
-Then point cargo to it by setting `FLASK_RESOLVER_LIB`:
+then point cargo to it by setting `FLASK_RESOLVER_LIB`:
 ```sh
 FLASK_RESOLVER_LIB=build/libresolver.a cargo build
 ```
@@ -80,7 +80,7 @@ FLASK_RESOLVER_LIB=build/libresolver.a cargo build
 cargo test
 ```
 
-Tests skip automatically if the relevant backend binary isn't installed.
+tests skip automatically if the relevant backend binary isn't installed.
 
 ---
 
